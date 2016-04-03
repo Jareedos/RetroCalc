@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFD4EBD31CAB1CA400B5DE20 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFD4EBD21CAB1CA400B5DE20 /* Minecraft.ttf */; };
+		BFD4EBD41CAB1CA400B5DE20 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFD4EBD21CAB1CA400B5DE20 /* Minecraft.ttf */; };
+		BFD4EBD51CAB1CA400B5DE20 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFD4EBD21CAB1CA400B5DE20 /* Minecraft.ttf */; };
+		BFD4EBD71CAB258400B5DE20 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFD4EBD61CAB258400B5DE20 /* btn.wav */; };
+		BFD4EBD81CAB258400B5DE20 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFD4EBD61CAB258400B5DE20 /* btn.wav */; };
+		BFD4EBD91CAB258400B5DE20 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BFD4EBD61CAB258400B5DE20 /* btn.wav */; };
 		BFF7E2591C55E5A4001CA9E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF7E2581C55E5A4001CA9E3 /* AppDelegate.swift */; };
 		BFF7E25B1C55E5A4001CA9E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF7E25A1C55E5A4001CA9E3 /* ViewController.swift */; };
 		BFF7E25E1C55E5A4001CA9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF7E25C1C55E5A4001CA9E3 /* Main.storyboard */; };
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFD4EBD21CAB1CA400B5DE20 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		BFD4EBD61CAB258400B5DE20 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		BFF7E2551C55E5A4001CA9E3 /* space-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "space-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF7E2581C55E5A4001CA9E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF7E25A1C55E5A4001CA9E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +105,8 @@
 		BFF7E2571C55E5A4001CA9E3 /* space-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				BFD4EBD21CAB1CA400B5DE20 /* Minecraft.ttf */,
+				BFD4EBD61CAB258400B5DE20 /* btn.wav */,
 				BFF7E2581C55E5A4001CA9E3 /* AppDelegate.swift */,
 				BFF7E25A1C55E5A4001CA9E3 /* ViewController.swift */,
 				BFF7E25C1C55E5A4001CA9E3 /* Main.storyboard */,
@@ -232,8 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD4EBD71CAB258400B5DE20 /* btn.wav in Resources */,
 				BFF7E2631C55E5A4001CA9E3 /* LaunchScreen.storyboard in Resources */,
 				BFF7E2601C55E5A4001CA9E3 /* Assets.xcassets in Resources */,
+				BFD4EBD31CAB1CA400B5DE20 /* Minecraft.ttf in Resources */,
 				BFF7E25E1C55E5A4001CA9E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD4EBD41CAB1CA400B5DE20 /* Minecraft.ttf in Resources */,
+				BFD4EBD81CAB258400B5DE20 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD4EBD51CAB1CA400B5DE20 /* Minecraft.ttf in Resources */,
+				BFD4EBD91CAB258400B5DE20 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +501,7 @@
 				BFF7E27F1C55E5A4001CA9E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFF7E2801C55E5A4001CA9E3 /* Build configuration list for PBXNativeTarget "space-calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +510,7 @@
 				BFF7E2821C55E5A4001CA9E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFF7E2831C55E5A4001CA9E3 /* Build configuration list for PBXNativeTarget "space-calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +519,7 @@
 				BFF7E2851C55E5A4001CA9E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
